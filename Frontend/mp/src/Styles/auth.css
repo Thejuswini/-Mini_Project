@@ -1,0 +1,125 @@
+/* Ensure the background image fully covers the screen */
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
+    background: url("../assets/image.png") no-repeat center center/cover;
+    background-size: cover; /* Ensures full coverage */
+  }
+  
+  /* Glassmorphism Effect */
+  .form-box {
+    background: rgba(255, 255, 255, 0.15); /* Transparent White */
+    backdrop-filter: blur(10px); /* Glass Effect */
+    padding: 2rem;
+    border-radius: 15px;
+    text-align: center;
+    width: 350px;
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    box-shadow: 0 4px 10px rgba(255, 255, 255, 0.1);
+  }
+  
+  /* Heading */
+  h2 {
+    font-size: 26px;
+    color: white;
+    margin-bottom: 15px;
+  }
+  
+  /* Input Fields */
+  .input-container {
+    display: flex;
+    align-items: center;
+    background: rgba(255, 255, 255, 0.3);
+    padding: 10px;
+    border-radius: 30px;
+    margin: 10px 0;
+  }
+  
+  .input-container input {
+    flex: 1;
+    border: none;
+    background: transparent;
+    color: white;
+    font-size: 16px;
+    padding: 5px;
+    outline: none;
+  }
+  
+  .input-container input::placeholder {
+    color: rgba(255, 255, 255, 0.7);
+  }
+  
+  /* Icon */
+  .input-container i {
+    margin-right: 10px;
+    color: white;
+  }
+  
+  /* Button */
+  button {
+    width: 100%;
+    padding: 12px;
+    background: rgba(255, 255, 255, 0.5);
+    border: none;
+    border-radius: 30px;
+    color: black;
+    font-size: 16px;
+    cursor: pointer;
+    font-weight: bold;
+    margin-top: 10px;
+  }
+  
+  button:hover {
+    background: rgba(255, 255, 255, 0.7);
+  }
+  
+  /* Links for "Don't have an account?" */
+  .switch-container {
+    margin-top: 15px;
+    font-size: 14px;
+  }
+  
+  .switch-container p {
+    color: white;
+  }
+  
+  .switch-container a {
+    color: #ffcc00;
+    text-decoration: none;
+    font-weight: bold;
+  }
+  
+  .switch-container a:hover {
+    text-decoration: underline;
+  }
+  /* ✅ Fixing the arrow button positions */
+.carousel .control-arrow {
+    width: 50px; /* Adjust the width of arrows */
+    height: 50px;
+    background: rgba(0, 0, 0, 0.5); /* Semi-transparent background */
+    border-radius: 50%; /* Make it circular */
+    position: absolute;
+    top: 50%; /* Center the arrows vertically */
+    transform: translateY(340%); /* Ensure perfect centering */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* ✅ Adjusting left and right arrow positions */
+.carousel .control-prev {
+    left: -30px; /* Move left arrow slightly outside */
+}
+
+.carousel .control-next {
+    right: -30px; /* Move right arrow slightly outside */
+}
+
+/* ✅ Styling the arrow icons */
+.carousel .control-arrow:before {
+    color: white; /* Make arrows white */
+    font-size: 24px;
+}
