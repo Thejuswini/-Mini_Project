@@ -1,0 +1,195 @@
+{
+    "diseases": [
+      {
+        "name": "Parvo Virus",
+        "description": "Highly contagious viral disease in dogs causing gastrointestinal issues and immune suppression.",
+        "symptoms": ["Severe vomiting", "Foul-smelling diarrhea (may contain blood)", "Loss of appetite", "Lethargy", "Fever"],
+        "transmission": "Spreads via fecal-oral route, contaminated surfaces like shoes, clothes, and fur.",
+        "common_in": "Unvaccinated puppies under 1 year.",
+        "high_risk_breeds": ["Rottweilers", "Dobermans", "Labradors", "Pit Bulls", "German Shepherds"],
+        "diagnosis": ["Fecal antigen test", "Blood antibody test", "WBC count", "PCR confirmation"],
+        "treatment": "No direct cure. Treatment involves IV fluids, anti-nausea meds, antibiotics for secondary infections.",
+        "mortality": "High if untreated, but survival improves with care."
+      },
+      {
+        "name": "Canine Distemper",
+        "description": "A highly contagious viral disease in dogs that affects the respiratory, digestive, and nervous systems, weakening the immune system.",
+        "symptoms": ["Watery eyes", "Nasal discharge", "Fever", "Coughing", "Tiredness", "Loss of appetite", "Vomiting", "Diarrhea", "Tremors", "Seizures", "Difficulty walking", "Head tilting", "Paralysis", "Hard pad disease", "Permanent tooth damage"],
+        "transmission": "Airborne droplets from coughing/sneezing, shared food bowls, contaminated surfaces, infected mothers to unborn puppies.",
+        "common_in": "Unvaccinated dogs, especially puppies under four months old. Also spreads through infected wildlife.",
+        "diagnosis": ["Symptoms", "Lab tests like PCR or antibody detection"],
+        "treatment": "Supportive care: IV fluids, antibiotics, symptom management, isolation.",
+        "mortality": "Around 50%, survivors often have lasting nervous system damage.",
+        "prevention": "Vaccination."
+      },
+      {
+        "name": "Leptospirosis",
+        "description": "A bacterial infection caused by Leptospira, found in soil and water.",
+        "symptoms": ["Loss of appetite", "Vomiting", "Lethargy", "Diarrhea", "Jaundice", "Dehydration", "Increased thirst and urination", "Weight loss", "Muscle pain", "Stiffness", "Kidney and liver failure", "Breathing difficulties", "Heart damage", "Bleeding disorders"],
+        "transmission": "Contact with infected urine, contaminated water, or soil.",
+        "common_in": "Dogs of all ages and breeds, especially in rainy areas.",
+        "diagnosis": ["Exposure history", "Symptoms", "Blood tests", "Urine analysis", "X-rays", "Ultrasound"],
+        "treatment": "Antibiotics, IV fluids, medications, nutritional support. Severe cases may need oxygen therapy or dialysis.",
+        "prevention": "Vaccination, avoiding contaminated water sources and wildlife."
+      },
+      {
+        "name": "Aural Hematoma",
+        "description": "A localized blood collection within the ear flap, causing swelling and discomfort.",
+        "symptoms": ["Swollen ear flap", "Head shaking", "Ear pain", "Reduced appetite", "Crusting or debris in the ear", "Redness", "Warmth"],
+        "causes": "Frequent head shaking or scratching due to infections, allergies, trauma, or clotting disorders.",
+        "common_in": "Dogs with floppy ears, including Cocker Spaniels, Basset Hounds, and Golden Retrievers.",
+        "diagnosis": ["Physical examination", "Ear swab analysis", "Blood tests"],
+        "treatment": "Surgical drainage or repeated draining with steroid injections. Underlying conditions must be treated.",
+        "complications": "If untreated, can lead to chronic inflammation, ear deformities, and persistent discomfort."
+      },
+      {
+        "name": "Lyme Disease",
+        "description": "Bacterial infection caused by Borrelia burgdorferi, transmitted through blacklegged ticks.",
+        "symptoms": ["Intermittent limping", "Shifting lameness", "Fever", "Loss of appetite", "Decreased activity", "Swollen lymph nodes", "Painful swollen joints", "Lyme nephritis"],
+        "transmission": "Spread via blacklegged tick bites.",
+        "diagnosis": ["Blood antibody test", "Tick exposure history", "Clinical signs", "Response to treatment"],
+        "treatment": "30-day antibiotic course.",
+        "risk": "Can mimic other tick-borne diseases, making diagnosis challenging."
+      },
+      {
+        "name": "Gingivitis",
+        "description": "Inflammation of the gums, the earliest and reversible stage of periodontal disease.",
+        "symptoms": ["Red, swollen gums", "Bad breath", "Gum bleeding", "Pain affecting self-grooming"],
+        "causes": "Bacterial infection from plaque buildup, poor oral hygiene.",
+        "diagnosis": ["Medical history", "Clinical signs", "Blood/urine tests", "Dental X-rays"],
+        "treatment": "Professional dental cleaning and regular home care.",
+        "prognosis": "Excellent with treatment."
+      },
+      {
+        "name": "Diabetes Mellitus",
+        "description": "Chronic condition where the body can't properly use sugar due to insulin issues.",
+        "symptoms": ["Increased thirst", "Frequent urination", "Excessive hunger", "Weight loss", "Weakness", "Cataracts (dogs)", "Nerve issues (cats)"],
+        "risk_factors": "Common in middle-aged dogs, older cats, small dog breeds.",
+        "complications": "Higher infection risk, liver fat buildup, vision loss, nerve damage.",
+        "diagnosis": ["High blood sugar", "Sugar in urine", "Special blood tests"],
+        "treatment": "Insulin injections, high-fiber diet, regular check-ups.",
+        "prognosis": "Good with lifelong care."
+      },
+      {
+        "name": "Laryngeal Paralysis",
+        "description": "A condition where the airway doesn’t open properly, making breathing difficult.",
+        "symptoms": ["Dry cough", "Voice changes", "Noisy breathing", "Difficulty breathing", "Collapse", "Possible vomiting or regurgitation"],
+        "common_in": "Middle-aged to older large breeds.",
+        "diagnosis": "Laryngoscopy under light anesthesia.",
+        "treatment": "Mild cases: Tranquilizers, corticosteroids. Severe cases: Surgery.",
+        "prognosis": "Good with treatment, but requires lifelong care."
+      },
+      {
+        "name": "Canine Hepatitis",
+        "description": "A serious liver disease caused by Adenovirus, leading to liver damage.",
+        "symptoms": ["Lethargy", "Weakness", "Loss of appetite", "Vomiting", "Diarrhea", "Jaundice", "Abdominal pain"],
+        "transmission": "Direct contact with infected dogs, contaminated food, water, objects, or airborne droplets.",
+        "diagnosis": ["Blood tests", "Clinical evaluation", "Liver biopsy"],
+        "treatment": "Medications, IV fluids, liver-friendly diet, antibiotics if needed.",
+        "prevention": "Vaccination, regular vet check-ups."
+      },
+      {
+        "name": "Tetanus",
+        "description": "A rare but serious bacterial disease in dogs caused by Clostridium tetani toxin, affecting the nervous system and leading to muscle rigidity and spasms.",
+        "symptoms": [
+            "Muscle stiffness (localized or generalized)",
+            "Tremors",
+            "Rigid posture ('sawhorse' stance)",
+            "Locked jaw",
+            "Difficulty swallowing",
+            "Excessive salivation",
+            "Fever due to muscle contractions",
+            "Breathing difficulties in severe cases"
+        ],
+        "transmission": "Bacteria enter through deep wounds or punctures contaminated with soil, dust, or feces containing C. tetani spores. Spores become active in low-oxygen environments and produce the neurotoxin tetanospasmin.",
+        "common_in": "Unvaccinated dogs with untreated deep wounds, especially in rural or outdoor environments.",
+        "breeds_at_risk": "No breed-specific predisposition, but working and outdoor dogs may be more exposed to contaminated environments.",
+        "diagnosis": "Clinical examination, history of recent wounds, characteristic symptoms. No reliable lab test, but blood work, urinalysis, ECG, and X-rays may help assess complications.",
+        "treatment": "No direct cure. Early administration of tetanus antitoxin may help. Treatment includes IV fluids, antibiotics (Penicillin G, metronidazole), wound debridement, muscle relaxants, and intensive nursing care in a quiet, dark environment to reduce spasms.",
+        "prognosis": "Survival rates range from 50-90%. Localized tetanus has a better prognosis, while generalized tetanus with complications like pneumonia worsens outcomes. Recovery can take weeks.",
+        "prevention": "No vaccine recommended for dogs. Prompt wound care, thorough cleaning, and antibiotic treatment can reduce the risk. Immediate veterinary attention is crucial if muscle rigidity develops after an injury."
+    },
+    {
+        "name": "Gastric Dilatation-Volvulus (GDV)",
+        "description": "A rapidly progressive and life-threatening condition in dogs where the stomach dilates and may rotate, leading to severe complications requiring immediate medical attention.",
+        "symptoms": [
+            "Anxious behavior",
+            "Looking at the abdomen",
+            "Stretching",
+            "Excessive drooling",
+            "Bloated abdomen",
+            "Retching without vomiting",
+            "Panting",
+            "Weakness",
+            "Collapse",
+            "Elevated heart and respiratory rates",
+            "Poor pulse quality"
+        ],
+        "transmission": "Not contagious. Caused by multiple factors, including rapid ingestion of large meals, deep chest conformation, single daily feeding, stress, and genetic predisposition.",
+        "common_in": "Large and giant breed dogs, especially those with deep chests. Older dogs, those fed one large meal per day, and dogs with a family history of GDV are at higher risk.",
+        "breeds_at_risk": ["Great Danes", "Weimaraners", "St. Bernards", "Irish Setters", "Gordon Setters", "Other deep-chested breeds"],
+        "diagnosis": "Clinical signs, abdominal x-rays, blood work (CBC, serum chemistry, electrolytes), urinalysis, ECG for cardiac arrhythmias, blood gas analysis to assess respiratory compromise.",
+        "treatment": "Requires immediate medical stabilization, including IV fluids, oxygen therapy, gastric decompression via stomach tube or needle, and surgical intervention. Surgery includes de-rotation of the stomach, removal of non-viable stomach tissue if necessary, and gastropexy to prevent recurrence.",
+        "prognosis": "Mortality rate is around 15%. Higher risk of death if clinical signs persist for more than 6 hours, cardiac arrhythmias occur before surgery, or if part of the stomach or spleen must be removed.",
+        "prevention": "Feeding multiple small meals per day, avoiding rapid eating, reducing stress, and prophylactic gastropexy in at-risk breeds or dogs with a family history of GDV."
+    },
+    {
+        "name": "Megaesophagus",
+        "description": "Progressive disorder in which the esophagus becomes dilated and loses motility, leading to difficulty in moving food to the stomach.",
+        "symptoms": [
+            "Regurgitation (passive expulsion of food/water)",
+            "Weight loss",
+            "Difficulty swallowing",
+            "Bad breath",
+            "Coughing",
+            "Pneumonia due to aspiration",
+            "Muscle weakness"
+        ],
+        "transmission": "Not contagious; can be congenital (present at birth) or acquired due to neuromuscular diseases, obstructions, or other medical conditions.",
+        "common_in": "More frequent in dogs than cats. Breeds at high risk include German Shepherds, Great Danes, Irish Setters, Newfoundlands, Wire Haired Fox Terriers, Miniature Schnauzers, Shar-Peis, Greyhounds, and Labrador Retrievers. Siamese cats may also be predisposed.",
+        "diagnosis": "X-rays (esophageal dilation), contrast studies (barium swallow), blood tests to rule out underlying causes, fluoroscopy, endoscopy, nerve-muscle biopsies.",
+        "treatment": "No direct cure. Management includes upright feeding (Bailey Chair), high-calorie diet (liquid or 'meatball' consistency), treating underlying conditions, and preventing aspiration pneumonia with antibiotics and careful feeding techniques."
+    },
+    {
+        "name": "Lick Granuloma (Acral Lick Dermatitis)",
+        "description": "Chronic skin condition in dogs caused by obsessive licking, leading to self-trauma, inflammation, and infection.",
+        "symptoms": [
+            "Excessive licking of one area",
+            "Hair loss",
+            "Thickened or ulcerated skin",
+            "Raised red plaques",
+            "Itchiness"
+        ],
+        "transmission": "Not contagious; develops due to physical or psychological factors like allergies, joint pain, stress, or anxiety.",
+        "common_in": "Middle-aged to older, large breed dogs.",
+        "breeds_at_risk": ["Labrador Retrievers", "Doberman Pinschers", "Great Danes", "Golden Retrievers", "Boxers", "Weimaraners"],
+        "diagnosis": "Clinical examination, X-rays (for arthritis), skin tests (for infections), allergy testing, neurological and behavioral assessments.",
+        "treatment": {
+            "medications": ["Topical steroids", "Antibiotics", "Antihistamines", "Pain relievers"],
+            "therapies": ["Laser therapy", "Acupuncture", "Behavioral modification", "Anxiety management"],
+            "preventive_measures": ["E-collars", "Bandages", "Addressing stress and boredom", "Increasing exercise"]
+        },
+        "prognosis": "Can be chronic and challenging to treat but manageable with long-term care and commitment."
+    },
+    {
+        "name": "Xylitol Toxicity in Dogs",
+        "description": "A severe and potentially fatal condition in dogs caused by ingestion of xylitol, a sugar substitute found in many human products.",
+        "symptoms": [
+            "Vomiting",
+            "Weakness",
+            "Lack of coordination",
+            "Lethargy",
+            "Tremors",
+            "Seizures",
+            "Coma",
+            "Liver failure in severe cases"
+        ],
+        "transmission": "Ingestion of xylitol-containing products such as sugar-free gum, candies, baked goods, peanut butter, toothpaste, medications, and personal care items.",
+        "common_in": "Dogs of all breeds, particularly those with access to human food or personal care products.",
+        "diagnosis": "Based on history of ingestion, clinical signs, and blood tests to check for hypoglycemia and liver enzyme elevation.",
+        "treatment": "Immediate veterinary care is critical. Includes IV fluids, glucose supplementation, liver protectants, and medications to manage symptoms.",
+        "prognosis": "Good if treated early before symptoms worsen. Delayed treatment can lead to severe hypoglycemia, liver failure, and death."
+    }
+    ]
+  }
+  
